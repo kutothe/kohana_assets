@@ -1,0 +1,18 @@
+ul.bullet_list {
+	list-style-type: disc;
+	margin: 15px 0 15px 40px;
+}
+
+.spacer_top {margin-top: 10px;}
+.spacer_right {margin-right: 10px;}
+.spacer_bottom {margin-bottom: 10px;}
+.spacer_left {margin-left: 10px;}
+
+
+
+/* Override default Kohana styles */
+table.profiler {
+	font-size: 11px;
+	font-family: verdana;
+	border: 1px solid #aaa;
+}
