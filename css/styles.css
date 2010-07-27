@@ -1,8 +1,9 @@
 ul.bullet_list {
 	list-style-type: disc;
 	margin: 15px 0 15px 40px;
+	line-height: 20px;
+	font-size: 14px;
 }
-
 .spacer_top {margin-top: 10px;}
 .spacer_right {margin-right: 10px;}
 .spacer_bottom {margin-bottom: 10px;}
