@@ -12,8 +12,20 @@ ul.bullet_list {
 
 
 /* Override default Kohana styles */
-table.profiler {
+.kohana table.profiler {
 	font-size: 11px;
 	font-family: verdana;
-	border: 1px solid #aaa;
+	border: 1px solid #888;
+	border-right: none;
+	border-left: none;
+	width: 100% !important;
+}
+.kohana table.profiler tr.time td {
+	font-weight: normal !important;
+}
+.kohana table.profiler tr.group th, .kohana table.profiler tr.group td,
+.kohana table.profiler tr.final th.name {
+	background-color: #bbb !important;
+	border: none !important;
+	color: #000 !important;
 }
